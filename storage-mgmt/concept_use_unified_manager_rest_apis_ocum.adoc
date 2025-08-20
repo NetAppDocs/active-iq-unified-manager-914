@@ -17,7 +17,7 @@ For information about Unified Manager REST APIs, see link:../api-automation/conc
 
 [NOTE]
 ====
-When adding an ONTAP cluster with version 9.14.1 or later, communication occurs through the cloud agent feature. ONTAP automatically creates an internal service account user with read-only privileges (for example, clus-agent-xxxx). Do not delete this clus-agent user from the ONTAP clusters, or Unified Manager will stop collecting data from those clusters.
+When adding an ONTAP cluster with version 9.14.1 or later, communication occurs through the cloud agent feature. ONTAP automatically creates an internal service account user with read-only privileges (for example, clus-agent-xxxx). Do not delete this `clus-agent` user from the ONTAP clusters, or Unified Manager will stop collecting data from those clusters.
 ====
 
 // 2025-8-20, OTHERDOC-149
